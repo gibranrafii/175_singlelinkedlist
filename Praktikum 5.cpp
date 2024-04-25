@@ -74,6 +74,9 @@ bool deleteNode(int nim) {
         false)
         return false;
     previous->next = current->next;
+    if (current == START)
+        START = current->next;
+    return true;
 }
 
 int main()
