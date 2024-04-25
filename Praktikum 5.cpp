@@ -127,6 +127,6 @@ void searchData() {
 
 int main()
 {
+    int pilihan;
     
 }
-
